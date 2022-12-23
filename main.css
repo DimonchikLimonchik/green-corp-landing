@@ -117,7 +117,11 @@ padding: 15px;
     font-weight: 600;
     margin-bottom: 15px;
 }
+<<<<<<< HEAD
 .form input, .form select {
+=======
+.form input {
+>>>>>>> 89b15a21f498e05f8c41a118d71f64fd457f8dab
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -128,6 +132,7 @@ padding: 15px;
 input {
     outline: none;
 }
+<<<<<<< HEAD
 select {
     appearance: none;
 }
@@ -140,6 +145,23 @@ button:hover {
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
     transition: background-color 0.3s ease-in;
+=======
+.form select {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
+    border: none;
+}
+select {
+    appearance: none;
+}
+button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: all 0.3s ease-in;
+>>>>>>> 89b15a21f498e05f8c41a118d71f64fd457f8dab
 }
 footer {
     padding: 90px 20px 90px 20px;
@@ -158,7 +180,11 @@ footer {
 .footer__group {
     margin-right: 80px;
 }
+<<<<<<< HEAD
 .footer h3 {
+=======
+.footer__links h3 {
+>>>>>>> 89b15a21f498e05f8c41a118d71f64fd457f8dab
     font-size: 16px;
     opacity: 0.7;
     margin-bottom: 30px;
