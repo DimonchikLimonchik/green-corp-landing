@@ -3,6 +3,7 @@ body {
     color: #213053;
     margin: 0;
 }
+/*header*/
 header {
     background-color: #fff;
     display: flex;
@@ -36,6 +37,7 @@ cursor: pointer;
 box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
 padding: 15px;
 }
+/*about*/
 .about__image {
     width: 500px;
 }
@@ -82,6 +84,7 @@ padding: 15px;
     background-position: center;
     background-size: cover;
 }
+/*form*/
 .form__container {
     width: 550px;
 }
@@ -117,11 +120,7 @@ padding: 15px;
     font-weight: 600;
     margin-bottom: 15px;
 }
-<<<<<<< HEAD
 .form input, .form select {
-=======
-.form input {
->>>>>>> 89b15a21f498e05f8c41a118d71f64fd457f8dab
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -132,7 +131,6 @@ padding: 15px;
 input {
     outline: none;
 }
-<<<<<<< HEAD
 select {
     appearance: none;
 }
@@ -145,7 +143,7 @@ button:hover {
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
     transition: background-color 0.3s ease-in;
-=======
+}
 .form select {
     font-size: 18px;
     color: #213053;
@@ -161,8 +159,8 @@ button:hover {
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
     transition: all 0.3s ease-in;
->>>>>>> 89b15a21f498e05f8c41a118d71f64fd457f8dab
 }
+/*footer*/
 footer {
     padding: 90px 20px 90px 20px;
     font-size: 16px;
@@ -180,11 +178,7 @@ footer {
 .footer__group {
     margin-right: 80px;
 }
-<<<<<<< HEAD
-.footer h3 {
-=======
 .footer__links h3 {
->>>>>>> 89b15a21f498e05f8c41a118d71f64fd457f8dab
     font-size: 16px;
     opacity: 0.7;
     margin-bottom: 30px;
@@ -195,4 +189,62 @@ footer {
 }
 .footer__links a {
     margin-bottom: 15px;
+}
+/*мобильные устройства*/
+@media (max-width: 720px) {
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header__logo {
+        height: 20px;
+    }
+    header a {
+        margin-right: 10px;
+    }
+    .about {
+        flex-direction: column-reverse;
+        padding: 50px 10px;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__image {
+        width: 280px;
+    }
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+    .form {
+        padding: 50px 10px;
+    }
+    .form h1 {
+        font-size: 36px;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+/*Планшеты*/
+}
+@media (max-width: 1024px) {
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__image {
+        width: 280px;
+    }
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
 }
